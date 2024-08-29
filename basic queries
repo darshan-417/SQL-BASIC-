@@ -1,8 +1,3 @@
-SHOW CHARACTER SET; -- shows various character sets that are supported.
-
-varchar(10) character set utf8    -- the particular column is set to utf8
-create database foreign_sales character set utf8;   -- entire database is set to utf8
-
 //creating a table
 CREATE TABLE student(
 	id INT PRIMARY KEY,
